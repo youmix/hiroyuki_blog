@@ -1,9 +1,7 @@
 ---
-title: 'My First Post'
-date: 2022-07-26T17:18:05+01:00
+title: '2023年'
+date: 2022-12-31T17:18:05+01:00
 draft: false
 ---
 
-# Hugo on github
-
-ああああ
+# 2023年もよろしくお願いします。
