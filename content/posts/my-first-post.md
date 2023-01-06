@@ -8,52 +8,17 @@ draft: false
 
 <br><br>
 {{< rawhtml >}}
-<div id="smart-button-container">
-      <div style="text-align: center;">
-        <div id="paypal-button-container"></div>
-      </div>
-    </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=JPY" data-sdk-integration-source="button-factory"></script>
-  <script>
-    function initPayPalButton() {
-      paypal.Buttons({
-        style: {
-          shape: 'rect',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'paypal',
-          
-        },
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="EKXRZ458YZLZ6">
+<table>
+<tr><td><input type="hidden" name="on0" value="hiroyuki.blogドメイン">hiroyuki.blogドメイン</td></tr>
+<tr><td><input type="hidden" name="on1" value="&#165;100,000">&#165;100,000</td></tr>
+</table>
+<input type="image" src="https://www.paypalobjects.com/ja_JP/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い">
+<img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
+</form>
 
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            purchase_units: [{"description":"\nhiroyuki.blogドメイン\n¥100,000","amount":{"currency_code":"JPY","value":100000}}]
-          });
-        },
-
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(orderData) {
-            
-            // Full available details
-            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-
-            // Show a success message within this page, e.g.
-            const element = document.getElementById('paypal-button-container');
-            element.innerHTML = '';
-            element.innerHTML = '<h3>Thank you for your payment!</h3>';
-
-            // Or go to another URL:  actions.redirect('thank_you.html');
-            
-          });
-        },
-
-        onError: function(err) {
-          console.log(err);
-        }
-      }).render('#paypal-button-container');
-    }
-    initPayPalButton();
-  </script>
 {{< /rawhtml >}}
 <br><br>
 ※取引に問題があった場合は[PayPal問題解決センター](https://www.paypal.com/jp/brc/article/resolving-paypal-disputes "PayPal問題解決センター")で
