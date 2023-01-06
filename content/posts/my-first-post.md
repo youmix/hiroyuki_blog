@@ -1,5 +1,5 @@
 ---
-title: '2023年'
+title: 'hiroyuki.blogドメイン売却'
 date: 2023-01-06T02:00:00.000Z
 draft: false
 ---
