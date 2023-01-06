@@ -4,7 +4,7 @@ date: 2023-01-06T02:00:00.000Z
 draft: false
 ---
 
-ご購入後、お支払いメールアドレスへ[(AuthCode（オースコード）](https://help.onamae.com/answer/8581) "オースコード")を送信しますので、移管先のレジストラへ入力してください。
+ご購入後、お支払いメールアドレスへ[(AuthCode（オースコード）](https://help.onamae.com/answer/8581 "オースコード")を送信しますので、移管先のレジストラへ入力してください。
 
 <br><br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -17,7 +17,7 @@ draft: false
 <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
 </form>
 <br><br>
-※取引に問題があった場合は[PayPal問題解決センター]([https://help.onamae.com/answer/8581](https://www.paypal.com/jp/brc/article/resolving-paypal-disputes) "PayPal問題解決センター")で
+※取引に問題があった場合は[PayPal問題解決センター]([https://help.onamae.com/answer/8581](https://www.paypal.com/jp/brc/article/resolving-paypal-disputes "PayPal問題解決センター")で
 
 <br><br>
-※メールで[質問などはこちら]([https://www.paypal.com/jp/brc/article/resolving-paypal-disputes](https://tayori.com/form/32a031e05185ff895af57ebc48d27d1aaecc22e0/)) "メール")
+※メールで[質問などはこちら]([https://www.paypal.com/jp/brc/article/resolving-paypal-disputes](https://tayori.com/form/32a031e05185ff895af57ebc48d27d1aaecc22e0/ "メール")
