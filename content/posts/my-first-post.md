@@ -12,7 +12,7 @@ draft: false
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="WRH63WP6G6DTE">
 <table>
-<tr><td><input type="hidden" name="on0" value="hiroyuki.blogドメイン">hiroyuki.blogドメイン</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+<tr><td><input type="hidden" name="on0" value="hiroyuki.blogドメイン">hiroyuki.blogドメイン</td></tr><tr></tr>
 </table>
 <input type="image" src="https://www.paypalobjects.com/ja_JP/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い">
 <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
